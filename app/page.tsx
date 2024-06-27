@@ -9,7 +9,6 @@ const containerStyle = {
   height: "100vh",
   display: "flex",
   gap: "45px",
-  flexWrap: "wrap",
   fontFamily: "Roboto, Arial, sans-serif",
   justifyContent: "center",
   alignItems: "center",
