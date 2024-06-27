@@ -10,6 +10,7 @@ const containerStyle = {
   paddingTop: "35px",
   height: "100vh",
   display: "flex",
+  flexWrap: "wrap",
   gap: "45px",
   fontFamily: "Roboto, Arial, sans-serif",
   justifyContent: "center",
