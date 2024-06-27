@@ -58,7 +58,7 @@ const SendMidiMessage = () => {
     const sendInitialMidiMessages = () => {
         navigator.requestMIDIAccess()
             .then((midiAccess) => {
-                const outputs = midiAccess.outputs.values();
+                const outputs = Array.from(midiAccess.outputs.values());
                 const statusByte = 0x90 + 4;
 
                  const exampleN1 = Array.from(Array(32).keys())
