@@ -18,7 +18,7 @@ const StyledButton = styled.button`
   }
 `;
 
-const StylizedButton = ({ onClick, children }) => {
+const StylizedButton = ({ onClick, children }:any) => {
   return (
     <StyledButton onClick={onClick}>
       {children}
