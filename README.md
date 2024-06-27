@@ -17,6 +17,11 @@ Any pull request are welcomed.
 - Adding MIDI device selector (Im busting my brain off)
 - Sending MIDI sequences for colorful shows :)
 
+## Known issues atm:
+- App will not display correctly on mobile (Altough is intended to be used in desktop, also flexWrap doesn't work?)
+- UI may be kinda sketchy
+- Code is not so easy to read lol.
+
 Be free to use, replicate, duplicate or reuse anything inside.
 
 Its my first official project that I personally needed.
