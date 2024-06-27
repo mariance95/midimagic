@@ -1,5 +1,4 @@
-'use client';
-
+'use client'
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -10,7 +9,6 @@ const containerStyle = {
   paddingTop: "35px",
   height: "100vh",
   display: "flex",
-  flexWrap: "wrap",
   gap: "45px",
   fontFamily: "Roboto, Arial, sans-serif",
   justifyContent: "center",
